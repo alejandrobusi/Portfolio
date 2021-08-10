@@ -1,0 +1,113 @@
+:root {
+  --primaryColor: #1e1e1e; 
+  --secondaryColor: #00aa71;
+  --primaryFont: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fuente-secundaria: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+.navbar {
+  border-bottom: 4px solid var(--secondaryColor);
+}
+.bgNav {
+  background-color:var(--primaryColor);
+}
+.imgNav {
+  width: 60px;
+  border-radius: 50%;
+  border: 4px solid var(--secondaryColor);
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.bgImg {
+  background: url(../Img/banner.jpg) center no-repeat;
+  width: 100%;
+  
+}
+.pImgT {
+  padding-top: 20%;
+}
+.pImgB {
+  padding-bottom: 20%;
+}
+.text-primary {
+  color: var(--secondaryColor) !important; 
+}
+.progressBar {
+  color: var(--secondaryColor);
+}
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.bg-success {
+  background-color: var(--secondaryColor) !important;
+}
+.title-s {
+  font-weight: 600;
+  color: var(--primaryColor);
+  font-size: 1.1rem;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.lined {
+  border-bottom: 1px solid var(--secondaryColor) ;
+}
+.card {
+  position: relative;
+}
+.numberOne {
+  position: absolute;
+  right: 0;
+  margin: 0 1.25rem;
+  opacity: 0;
+  transition: all 500ms;
+}
+.numberOne:hover{
+opacity: 1;
+}
+.btn-primary {
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  border-color: var(--primaryColor);
+}
+.btn-primary:hover {
+  color: var(--secondaryColor);
+  background-color: var(--primaryColor);
+  border-color: var(--secondaryColor);
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  border-color: var(--primaryColor);
+  box-shadow: 0 0 0 0.25rem rgba(30, 30, 30, 0.5);
+}
+.numberTwo {
+  position: absolute;
+  right: 0;
+  margin: 0 -1.25rem;
+  opacity: 0;
+  transition: all 500ms;
+}
+.numberTwo:hover{
+opacity: 1;
+}
+.footerBg {
+  width: 100%;
+  background: var(--primaryColor);
+  padding: 0 0;
+  border-top: black solid 2px;
+}
+.footerPol {
+  width: 100%;
+  height: 200px;
+  clip-path: polygon(100% 5%, 3% 100%, 100% 100%);
+  background: rgb(0,170,113);
+  background: linear-gradient(157deg, rgba(0,170,113,1) 0%, rgba(0,170,113,1) 52%, rgba(122,253,45,1) 100%); 
+}

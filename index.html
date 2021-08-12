@@ -12,7 +12,7 @@
 <body>
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark bgNav shadow">
-      <div class="container">
+      <div class="container justify-content-lg-between justify-content-md-center justify-content-sm-center">
         <div>
           <img src="./Img/DSC_20491.jpg" class="imgNav" alt="ImagePerson">
           <a class="navbar-brand" href="#">Alejandro Busi</a>
@@ -22,16 +22,16 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+            <a class="nav-link" href="#exp">Educación y experiencia</a>
+            <a class="nav-link" href="#port">Portfolio</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
   <main>
-    <section>
+    <section id="inicio">
       <div class="container-fluid bgImg shadow">
         <div class="container col-sm-8 col-md-8 ">
           <h2 class=" pImgT">Hola, Soy</h2>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </section>
-    <section class="my-5"">
+    <section class="my-5" id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -72,13 +72,21 @@
                     <div class="progress">
                       <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span>50%</span>
+                    <span>BOOTSTRAP</span> <span>65%</span>
                     <div class="progress">
-                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>REACT</span> <span>90%</span>
+                    <span>REACT</span> <span>10%</span>
                     <div class="progress">
-                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>SCRUM</span> <span>60%</span>
+                    <div class="progress">
+                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>MONGO DB</span> <span>10%</span>
+                    <div class="progress">
+                      <div class="progress-bar bg-success  progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -109,7 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="my-5">
+    <section class="my-5" id="exp">
       <div class="container">
           <p class="fw-bold text-primary text-uppercase">La sabiduría es un viaje sin fin. </p>
           <h3 class="text-uppercase lined mb-5 pb-4">Educación</h3>
@@ -153,7 +161,7 @@
         </ul>
       </div>
     </section>
-    <section id="experience" class="my-5 lined">
+    <section class="my-5 lined">
       <div class="container">
           <p class="fw-bold text-primary text-uppercase ">Si, estuve por aquí.</p>
           <h2 class="text-uppercase lined mb-5 pb-4">Experiencia</h2>
@@ -203,45 +211,53 @@
         </ul>
       </div>
     </section>
-    <section class="container my-5">
+    <section class="container my-5" id="port">
       <h2 class="text-uppercase lined mb-5 pb-4">Portfolio</h2>
       <p class="fw-bold text-primary text-uppercase ">Echa un vistazo a </p>
-      <div class="card box-shadow-full">
+      <div class="card boxShadowFull">
         <img class="numberOne img-fluid  " src="./Img/n1.png" alt="Numero 1">
         <img src="./Img/SharedScreenshot.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Centro Médico Integral TC</h5>
           <p class="card-text lead">Los requisitos Fueron: html, css, bootstrap y trello. Todo esto acompañado de buenas prácticas, haciendo uso de la metodología SCRUM.</p>
-          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary">Go somewhere</a>
+          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary">Echar un vistazo</a>
         </div>
       </div>
       <p class="fw-bold text-primary text-uppercase ">Echa un vistazo a mi trabajo</p>
-      <div class="card box-shadow-full">
+      <div class="card boxShadowFull">
         <img class="numberTwo img-fluid  " src="./Img/n2.png" alt="Numero 1">
         <img src="./Img/SharedScreenshot 2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title d-flex flex-row-reverse">Centro Médico Integral TC</h5>
           <p class="card-text d-flex flex-row-reverse lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary ">Go somewhere</a>
+          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary ">Echar un vistazo</a>
         </div>
       </div>
       <p class="fw-bold text-primary text-uppercase ">Echa un vistazo a mi trabajo</p>
-      <div class="card box-shadow-full">
+      <div class="card boxShadowFull">
         <img class="numberOne img-fluid  " src="./Img/n1.png" alt="Numero 1">
         <img src="./Img/SharedScreenshot 2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Centro Médico Integral TC</h5>
           <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary">Go somewhere</a>
+          <a href="https://centromedicocmtc.netlify.app/" target="_blank" class="btn btn-primary">Echar un vistazo</a>
         </div>
       </div>
     </section>
   </main>
   <footer class="container-fluid footerBg ">
-    <div class="container d-flex ">
-      <i class="fab fa-linkedin "></i>
+    <div class="containerIcons container d-flex justify-content-between">
+      <div class=" d-flex justify-content-between  align-items-center">
+          <div><a href="https://www.linkedin.com/in/alejandro-busi-68b661103/" target="_blank"><i class="fab boxShadowIcons fa-3x shadow fa-linkedin"></i></a></div>
+          <div><a href="https://github.com/alejandrobusi" target="_blank"><i class="fab boxShadowIcons mx-2 fa-3x shadow fa-github-square"></i></a></div>
+          <div><a href="https://www.instagram.com/alebusi/" target="_blank"><i class="fab boxShadowIcons fa-3x shadow fa-instagram-square"></i></a></div>
+      </div>
+      <div class="text-center">
+        <a href="#inicio"><img src="./Img/sunflower_1f33b.png" class="footerIcon pt-5" alt="Sunflower"></a>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> Todos los derechos reservados.</p>
+        <p>Alejandro Busi</p>
+      </div>
     </div>
-    <div class="footerPol"></div>
   </footer>
   
   <script src="./Js/App.js"></script>

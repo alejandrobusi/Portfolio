@@ -20,7 +20,7 @@
   flex-grow: 0;
 }
 .bgImg {
-  background: url(../Img/banner.jpg) center no-repeat;
+  background: url(../Img/banner2.jpg) center no-repeat;
   width: 100%;
   
 }
@@ -36,7 +36,7 @@
 .progressBar {
   color: var(--secondaryColor);
 }
-.box-shadow-full {
+.boxShadowFull {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
@@ -100,7 +100,9 @@ opacity: 1;
 }
 .footerBg {
   width: 100%;
-  background: var(--primaryColor);
+  height: 200px;
+  background: rgb(30,30,30);
+  background: linear-gradient(172deg, rgba(30,30,30,1) 52%, rgba(0,170,113,1) 52%, rgba(122,253,45,1) 100%); 
   padding: 0 0;
   border-top: black solid 2px;
 }
@@ -110,4 +112,13 @@ opacity: 1;
   clip-path: polygon(100% 5%, 3% 100%, 100% 100%);
   background: rgb(0,170,113);
   background: linear-gradient(157deg, rgba(0,170,113,1) 0%, rgba(0,170,113,1) 52%, rgba(122,253,45,1) 100%); 
+}
+.boxShadowIcons {
+color: var(--secondaryColor);
+}
+.containerIcons {
+height: 200px;
+}
+.footerIcon {
+  width: 25%;
 }

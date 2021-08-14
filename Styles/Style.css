@@ -131,3 +131,6 @@ height: 200px;
   -webkit-filter: drop-shadow(3px 3px 3px #00aa714f);
   filter: drop-shadow(3px 3px 3px #00aa7167);
 }
+.shadowBanner {
+  text-shadow: 2px 1px 5px #ffffffdc
+}
